@@ -49,7 +49,7 @@ namespace SampleDocCompPlugin
         {
             var menuEntry = new MenuItem() { Header = "Sample Single File Menu Entry", Icon = LoadImage($"pack://application:,,,/{_AssemblyName};component/images/arrow.png") };
             menuEntry.Click += new System.Windows.RoutedEventHandler((object sender, RoutedEventArgs args) => {
-                MessageBoxDialogWpf.Show(_DocumentCompanion.MainWindow, $"File Selected: {string.Join("\r\n", _DocumentCompanion.GetSelectedPageNumbers())}", _DocumentCompanion.MainWindow.Title, MessageBoxDialogWpf.DialogButtons.Ok, MessageBoxDialogWpf.DialogIcons.Information);
+                MessageBoxDialogWpf.Show(_DocumentCompanion.MainWindow, $"File Selected: {string.Join("\r\n", _DocumentCompanion.GetSelectedFilePaths())}", _DocumentCompanion.MainWindow.Title, MessageBoxDialogWpf.DialogButtons.Ok, MessageBoxDialogWpf.DialogIcons.Information);
             });
             return new List<MenuItem>() { menuEntry };
         }
@@ -58,7 +58,7 @@ namespace SampleDocCompPlugin
         {
             var menuEntry = new MenuItem() { Header = "Sample Multi File Menu Entry", Icon = LoadImage($"pack://application:,,,/{_AssemblyName};component/images/arrow.png") };
             menuEntry.Click += new System.Windows.RoutedEventHandler((object sender, RoutedEventArgs args) => {
-                MessageBoxDialogWpf.Show(_DocumentCompanion.MainWindow, $"Files Selected: {string.Join("\r\n", _DocumentCompanion.GetSelectedPageNumbers())}", _DocumentCompanion.MainWindow.Title, MessageBoxDialogWpf.DialogButtons.Ok, MessageBoxDialogWpf.DialogIcons.Information);
+                MessageBoxDialogWpf.Show(_DocumentCompanion.MainWindow, $"Files Selected: {string.Join("\r\n", _DocumentCompanion.GetSelectedFilePaths())}", _DocumentCompanion.MainWindow.Title, MessageBoxDialogWpf.DialogButtons.Ok, MessageBoxDialogWpf.DialogIcons.Information);
             });
             return new List<MenuItem>() { menuEntry };
         }
