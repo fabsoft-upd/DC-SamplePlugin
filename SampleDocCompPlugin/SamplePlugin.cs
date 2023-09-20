@@ -124,7 +124,7 @@ namespace SampleDocCompPlugin
                                 List<string> imported = _DocumentCompanion.ImportDocuments(new List<string>(){ dlg.FileName }, false);
                                 if (imported != null && imported.Count >0)
                                 {
-                                    _DocumentCompanion.OpenDocument(imported[0]);
+                                    _DocumentCompanion.BeginOpenDocument(imported[0]);
                                 }
                             }
                         })
