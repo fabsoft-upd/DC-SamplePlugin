@@ -158,7 +158,7 @@ namespace SampleDocCompPlugin
                 {
                     ActionButton = new ActionButton()
                     {
-                        Text = "Sample Submit - TIFF".Replace(' ', NonBreakingSpace),
+                        Text = "Sample Submit - TIFF".Replace(' ', NonBreakingSpace),
                         RequiresOpenDocument = true,
                         Tooltip = "Sample Plugin Submit TIFF Logic",
                         Icon = $"pack://application:,,,/{_AssemblyName};component/images/down.png",
