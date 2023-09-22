@@ -22,7 +22,11 @@
 
 ### Action Button
 
+<img src="https://github.com/fabsoft-upd/DC-SamplePlugin/wiki/images/ActionButton.png" />
+
 ### Submit Button
+
+<img src="https://github.com/fabsoft-upd/DC-SamplePlugin/wiki/images/SubmitButton.png" />
 
 ### Settings Panel
 
