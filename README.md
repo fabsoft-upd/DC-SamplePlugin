@@ -6,19 +6,19 @@
 
 ### File Menu for Single Selected Entry
 
-<img src="wiki/images/SingleFileMenuEntry" />
+<img src="https://github.com/fabsoft-upd/DC-SamplePlugin/wiki/images/SingleFileMenuEntry" />
 
 ### File Menu for Multiple Selected Entries
 
-<img src="wiki/images/MultiFileMenuEntry" />
+<img src="https://github.com/fabsoft-upd/DC-SamplePlugin/wiki/images/MultiFileMenuEntry" />
 
 ### Page Menu for Single Selected Entry
 
-<img src="wiki/images/SinglePageMenuEntry" />
+<img src="https://github.com/fabsoft-upd/DC-SamplePlugin/wiki/images/SinglePageMenuEntry" />
 
 ### Page Menu for Multiple Selected Entries
 
-<img src="wiki/images/MultiPageMenuEntry" />
+<img src="https://github.com/fabsoft-upd/DC-SamplePlugin/wiki/images/MultiPageMenuEntry" />
 
 ### Action Button
 
@@ -26,4 +26,4 @@
 
 ### Settings Panel
 
-<img src="wiki/images/SettingsPanel.png" />
+<img src="https://github.com/fabsoft-upd/DC-SamplePlugin/wiki/images/SettingsPanel.png" />
