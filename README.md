@@ -6,19 +6,19 @@
 
 ### File Menu for Single Selected Entry
 
-<img src="images/SingleFileMenuEntry" />
+<img src="wiki/images/SingleFileMenuEntry" />
 
 ### File Menu for Multiple Selected Entries
 
-<img src="images/MultiFileMenuEntry" />
+<img src="wiki/images/MultiFileMenuEntry" />
 
 ### Page Menu for Single Selected Entry
 
-<img src="images/SinglePageMenuEntry" />
+<img src="wiki/images/SinglePageMenuEntry" />
 
 ### Page Menu for Multiple Selected Entries
 
-<img src="images/MultiPageMenuEntry" />
+<img src="wiki/images/MultiPageMenuEntry" />
 
 ### Action Button
 
@@ -26,4 +26,4 @@
 
 ### Settings Panel
 
-<img src="images/SettingsPanel.png" />
+<img src="wiki/images/SettingsPanel.png" />
